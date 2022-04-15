@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homework 17 Solved</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#img1").fadeOut();
+    $("#div2").fadeOut("slow");
+    $("#div3").fadeOut(3000);
+  });
+});
+</script>
+    <header>
+      <img src="images/me.png" width="40" height="40">
+      <ul>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>WORK</li>
+        <li>CONTACT</li>
+      </ul>
+    </header>
+    <section class="heroImg">
+      <div class="content">
+        <img src="images/me.png" width="200" height="200">
+        <h1>Celeste Alcon</h1>
+        <p>I'm a UX Designer who is passionate about 
+          inspiring others through creating engaging, 
+          inclusive experiences</p>
+        <button>Download Resume</button>
+      </div>
+    </section>
+    <h1 class="heading">My UX Skills</h1>
+    <section class="flexContainer">
+      <div>
+        <img src="images/wireframe.png" width="200" height="200">
+        <h3>Wireframing & Prototyping</h3>
+        <p>I focalize designing wireframes and prototypes based on the market's best practices to ensure my designs are standardized.</p>
+      </div>
+      <div>
+        <img src="images/user.png" width="200" height="200">
+        <h3>User Empathy</h3>
+        <p>I use multiple empathy methods to get into the mind of my user and to help translate  their goals and needs.</p>
+      </div>
+      <div>
+        <img src="images/test1.png" width="200" height="200">
+        <h3>User Testing</h3>
+        <p>User testing allows me to rid any biases in my design to create the most effective end product for my user.</p>
+      </div>
+    </section>
+
+    <section class="myWork">
+      <h1 class="heading">My Work</h1>
+      <div class="workGrid">
+        <div class="img1">
+          <img src="images/iPhone 13 Pro Max.png" width="200" height="300">
+        </div>
+        <div class="content1">
+          <h4>SubEATS</h4>
+          <p>The mobile app that helps you create meals that are friendly for everyone.</p>
+          <button>View Project</button>
+        </div>
+        <div class="img2">
+          <img src="images/MacBook Pro 16.png">
+        </div>
+        <div class="content2">
+          <h4>Coats for Colorado</h4>
+          <p>Redesigning the webpage for a local non-profit organization.</p>
+          <button>View Project</button>
+        </div>
+        <div class="img3">
+          <img src="images/Monitor XDR.png">
+        </div>
+        <div class="content3">
+          <h4>Department of Homeland Security</h4>
+          <p>Redesigning the webpage for a government organization.</p>
+          <button>View Project</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>WORK</li>
+        <li>CONTACT</li>
+      </ul>
+    </footer>
+  </body>
+  <script src="js/index.js"></script>
+</html>
